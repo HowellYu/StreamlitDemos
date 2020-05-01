@@ -1,5 +1,5 @@
-spacy
-textblob
-gensim
-sumy
-streamlit
+spacy==2.2.4
+textblob==0.15.3
+gensim==3.8.2
+sumy==0.8.1
+streamlit==0.58.0
