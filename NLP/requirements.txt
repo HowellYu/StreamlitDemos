@@ -1,0 +1,5 @@
+spacy
+textblob
+gensim
+sumy
+streamlit
