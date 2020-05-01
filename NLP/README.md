@@ -3,6 +3,12 @@
 > Author: Qianhao Howell Yu        
 > Source: https://blog.jcharistech.com/2019/10/22/building-a-natural-language-processing-app-with-streamlitspacy-and-python/    
 
+### StreamLit Capabilities
+- Text area, checkbox, multiple selection, slider, date.
+- File upload, download, result display, markdown.
+- Dataframe (pandas).
+- Error handling.
+- Header, sub-header, sidebar.
 
 #### NLP Tasks
 1. Tokenizer
@@ -28,9 +34,5 @@ Execute the following command to launch the app. By default, the app will launch
 streamlit run app.py
 ```
 
-### StreamLit Capabilities
-- Text area, checkbox, multiple selection, slider, date.
-- File upload, download, result display, markdown.
-- Dataframe (pandas).
-- Error handling.
-- Header, sub-header, sidebar.
+#### Demo
+![screenshot](img/screenshot.png)
