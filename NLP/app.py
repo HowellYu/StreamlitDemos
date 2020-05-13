@@ -48,7 +48,7 @@ def entity_analyzer(my_text):
 # currently streamlit does not have a download method, there is a workaround to generate a download link
 def get_download_link(text, file_name):
     import base64
-    b64 = base64.b64encode(text.encode('ascii')).decode()  # some strings <-> bytes conversions necessary here
+    b64 = base64.b64encode(text.encode('ascii', 'ignore')).decode()  # some strings <-> bytes conversions necessary here
     print('result:', b64)
     return f'<a href="data:file/txt;base64,{b64}" download="{file_name}.txt">Download Result</a>'
 
